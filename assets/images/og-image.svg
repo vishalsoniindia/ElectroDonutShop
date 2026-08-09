@@ -1,0 +1,54 @@
+<!-- Social sharing preview card.
+     NOTE: most social networks do not render SVG previews. Export this as a
+     1200x630 PNG, save it as assets/images/og-image.png, and point the
+     og:image tag near the top of index.html at it. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0B10"/>
+      <stop offset="1" stop-color="#1A1024"/>
+    </linearGradient>
+    <radialGradient id="og-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF3D7F" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FF3D7F" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="og-bite">
+      <rect width="64" height="64" fill="#fff"/>
+      <circle cx="24" cy="44" r="4.6" fill="#000"/>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <circle cx="950" cy="315" r="330" fill="url(#og-glow)"/>
+
+  <g transform="translate(795 145) scale(5.2)">
+    <circle cx="32" cy="6" r="3" fill="#22D3EE"/>
+    <rect x="30.8" y="8" width="2.4" height="6.5" rx="1.2" fill="#FF3D7F"/>
+    <rect x="4.5" y="24" width="5.5" height="13" rx="2.75" fill="#FF3D7F"/>
+    <rect x="54" y="24" width="5.5" height="13" rx="2.75" fill="#FF3D7F"/>
+    <rect x="9" y="14" width="46" height="32" rx="7.5" fill="#FF3D7F"/>
+    <rect x="16.5" y="21.5" width="12" height="11" rx="3.5" fill="#fff"/>
+    <rect x="35.5" y="21.5" width="12" height="11" rx="3.5" fill="#fff"/>
+    <path d="M36 37c3 3.6 8.4 3.6 11.4 0" fill="none" stroke="#fff"
+          stroke-width="2.4" stroke-linecap="round"/>
+    <path mask="url(#og-bite)" fill="#E8B27A" fill-rule="evenodd"
+          d="M17 40a10.5 10.5 0 1 0 0 21 10.5 10.5 0 1 0 0-21Zm0 6.5a4 4 0 1 1 0 8 4 4 0 1 1 0-8Z"/>
+    <g fill="#fff">
+      <rect x="11.1" y="43.2" width="1.8" height="4.6" rx=".9" transform="rotate(30 12 45.5)"/>
+      <rect x="16.1" y="56.2" width="1.8" height="4.6" rx=".9" transform="rotate(8 17 58.5)"/>
+      <rect x="13.1" y="39.2" width="1.8" height="4.6" rx=".9" transform="rotate(-52 14 41.5)"/>
+    </g>
+    <g fill="#22D3EE">
+      <rect x="9.6" y="51.7" width="1.8" height="4.6" rx=".9" transform="rotate(-35 10.5 54)"/>
+      <rect x="22.6" y="52.7" width="1.8" height="4.6" rx=".9" transform="rotate(55 23.5 55)"/>
+    </g>
+  </g>
+
+  <text x="90" y="295" fill="#F3F3F7"
+        font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, sans-serif"
+        font-size="86" font-weight="700" letter-spacing="-2">ElectroDonut</text>
+  <text x="90" y="361" fill="#9C9CAB"
+        font-family="ui-sans-serif, system-ui, Segoe UI, Roboto, sans-serif"
+        font-size="34">Sweet hardware for makers.</text>
+  <rect x="90" y="409" width="150" height="6" rx="3" fill="#FF3D7F"/>
+</svg>

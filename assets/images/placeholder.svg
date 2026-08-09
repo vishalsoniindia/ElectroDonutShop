@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="No image yet">
+  <rect width="400" height="300" fill="#1c1c28"/>
+  <g stroke="#3a3a4c" stroke-width="2.5" fill="none">
+    <circle cx="200" cy="140" r="52"/>
+    <circle cx="200" cy="140" r="19"/>
+  </g>
+  <text x="200" y="230" text-anchor="middle" fill="#5c5c70"
+        font-family="ui-sans-serif, system-ui, sans-serif" font-size="15">
+    No photo yet
+  </text>
+</svg>

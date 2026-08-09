@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ElectroDonut">
+  <!-- Dark tile so the mark holds up in both light and dark browser tabs. -->
+  <rect width="64" height="64" rx="14" fill="#0B0B10"/>
+
+  <defs>
+    <mask id="fbite">
+      <rect width="64" height="64" fill="#fff"/>
+      <circle cx="25.5" cy="43.5" r="4" fill="#000"/>
+    </mask>
+  </defs>
+
+  <circle cx="32" cy="11" r="2.8" fill="#22D3EE"/>
+  <rect x="30.9" y="12.5" width="2.2" height="5.5" rx="1.1" fill="#FF3D7F"/>
+
+  <rect x="8" y="25" width="4.6" height="11" rx="2.3" fill="#FF3D7F"/>
+  <rect x="51.4" y="25" width="4.6" height="11" rx="2.3" fill="#FF3D7F"/>
+
+  <rect x="12" y="17.5" width="40" height="27" rx="6.5" fill="#FF3D7F"/>
+
+  <rect x="18.5" y="23.5" width="10.5" height="9.5" rx="3" fill="#fff"/>
+  <rect x="35" y="23.5" width="10.5" height="9.5" rx="3" fill="#fff"/>
+
+  <path mask="url(#fbite)" fill="#E8B27A" fill-rule="evenodd"
+        d="M19.5 40a9 9 0 1 0 0 18 9 9 0 1 0 0-18Zm0 5.6a3.4 3.4 0 1 1 0 6.8 3.4 3.4 0 1 1 0-6.8Z"/>
+
+  <g fill="#fff">
+    <rect x="13.7" y="42.9" width="1.6" height="4" rx=".8" transform="rotate(30 14.5 44.9)"/>
+    <rect x="18.7" y="53.4" width="1.6" height="4" rx=".8" transform="rotate(8 19.5 55.4)"/>
+  </g>
+  <g fill="#22D3EE">
+    <rect x="12.2" y="49.4" width="1.6" height="4" rx=".8" transform="rotate(-35 13 51.4)"/>
+  </g>
+</svg>

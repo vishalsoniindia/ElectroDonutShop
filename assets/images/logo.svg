@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ElectroDonut">
+  <defs>
+    <!-- The bite out of the donut, as a real transparent notch so it works
+         on any background colour. -->
+    <mask id="bite">
+      <rect width="64" height="64" fill="#fff"/>
+      <circle cx="24" cy="44" r="4.6" fill="#000"/>
+    </mask>
+  </defs>
+
+  <!-- antenna -->
+  <circle cx="32" cy="6" r="3" fill="#22D3EE"/>
+  <rect x="30.8" y="8" width="2.4" height="6.5" rx="1.2" fill="#FF3D7F"/>
+
+  <!-- ears -->
+  <rect x="4.5" y="24" width="5.5" height="13" rx="2.75" fill="#FF3D7F"/>
+  <rect x="54" y="24" width="5.5" height="13" rx="2.75" fill="#FF3D7F"/>
+
+  <!-- head -->
+  <rect x="9" y="14" width="46" height="32" rx="7.5" fill="#FF3D7F"/>
+
+  <!-- eyes -->
+  <rect x="16.5" y="21.5" width="12" height="11" rx="3.5" fill="#fff"/>
+  <rect x="35.5" y="21.5" width="12" height="11" rx="3.5" fill="#fff"/>
+
+  <!-- smile -->
+  <path d="M36 37c3 3.6 8.4 3.6 11.4 0" fill="none" stroke="#fff"
+        stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- donut -->
+  <path mask="url(#bite)" fill="#E8B27A" fill-rule="evenodd"
+        d="M17 40a10.5 10.5 0 1 0 0 21 10.5 10.5 0 1 0 0-21Zm0 6.5a4 4 0 1 1 0 8 4 4 0 1 1 0-8Z"/>
+
+  <!-- sprinkles -->
+  <g fill="#fff">
+    <rect x="11.1" y="43.2" width="1.8" height="4.6" rx=".9" transform="rotate(30 12 45.5)"/>
+    <rect x="16.1" y="56.2" width="1.8" height="4.6" rx=".9" transform="rotate(8 17 58.5)"/>
+    <rect x="13.1" y="39.2" width="1.8" height="4.6" rx=".9" transform="rotate(-52 14 41.5)"/>
+  </g>
+  <g fill="#22D3EE">
+    <rect x="9.6" y="51.7" width="1.8" height="4.6" rx=".9" transform="rotate(-35 10.5 54)"/>
+    <rect x="22.6" y="52.7" width="1.8" height="4.6" rx=".9" transform="rotate(55 23.5 55)"/>
+  </g>
+</svg>
