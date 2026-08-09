@@ -50,7 +50,7 @@ window.PRODUCTS = [
     tags: ["wearable", "kits", "coincell"],
     // badge: "Best seller",
     stock: "in_stock",
-    images: ["1.jpeg", "2.jpg" , "3.jpg" , "4.jpg"],
+    images: ["1.jpeg", "2.jpg" , "3.jpg" , "4.jpg" , "5.png" ],
     specs: {
       "Switches": "Switches for RGB",
       "Colors": "Select a Color from 7 Options",
