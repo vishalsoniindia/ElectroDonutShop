@@ -43,9 +43,9 @@ window.PRODUCTS = [
   {
     id: "rgb-pendant",
     title: "RGB Pendent",
-    price: "$25.99",
+    price: "$13.99",
     was: "$35.99",
-    blurb: "Free Shipping",
+    blurb: "10.99 Shipping",
     category: ["Products", "Kits"],
     tags: ["wearable", "kits", "coincell"],
     // badge: "Best seller",
