@@ -78,7 +78,7 @@ window.PRODUCTS = [
     `
   },
   {
-    id: "soulcage",
+    id: "SoulCage",
     title: "SoulCage - The Digital Trapped Soul Pendant",
     price: "$102.00",
     was: "$150.00",
