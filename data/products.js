@@ -66,16 +66,49 @@ window.PRODUCTS = [
     //   tindie: "$52"
     // },
     description: `
-- Battery (CR2032) not included.
-- Visibility is reduced in direct sunlight.
-- Performs best in indoor or low-light conditions.
+    - Battery (CR2032) not included.
+    - Visibility is reduced in direct sunlight.
+    - Performs best in indoor or low-light conditions.
 
-## What is it?
-The pendant features three individual switches, each controlling one color of the RGB LED—Red, Green, and Blue. By turning the switches on and off in different combinations, you can create 7 unique colors, allowing the pendant to match different outfits, occasions, or moods. It is powered by a coin cell battery.
+    ## What is it?
+    The pendant features three individual switches, each controlling one color of the RGB LED—Red, Green, and Blue. By turning the switches on and off in different combinations, you can create 7 unique colors, allowing the pendant to match different outfits, occasions, or moods. It is powered by a coin cell battery.
 
-## What makes it special?
-This is very simple to build and can be assembled with basic soldering skills. No programming is required. It runs on a coin cell battery, so there's no need to recharge it.
-`
+    ## What makes it special?
+    This is very simple to build and can be assembled with basic soldering skills. No programming is required. It runs on a coin cell battery, so there's no need to recharge it.
+    `
+  },
+  {
+    id: "soulcage",
+    title: "SoulCage - The Digital Trapped Soul Pendant",
+    price: "$102.00",
+    was: "$150.00",
+    blurb: "38 Shipping",
+    category: ["Products"],
+    tags: ["wearable", "Halloween"],
+    badge: "Best seller",
+    stock: "in_stock",
+    images: ["1.png", "2.jpg" , "3.jpg" , "4.jpg" ],
+    specs: {
+      "Using time": "11 hour",
+      "Charging Time": "5 hour",
+      "Switch": "on/off & change soul",
+      "Included": "Pendent, Necklace Cord"
+    },
+    links: {
+      tindie: "https://www.tindie.com/products/vishalsoniindia/soulcage-the-digital-trapped-soul-pendant/",
+      kofi: "https://ko-fi.com/s/c47df2075a"
+    },
+    // prices: {
+    //   tindie: "$52"
+    // },
+    description: `
+
+    ## What is it?
+    Pendant for Hallowee, which has moving soul.
+
+    ## What makes it special?
+    In this, the soul is moving and try to break the mirror to get out from pendent. There are two souls, male and female, which can be switched between. The male soul is aggressive, while the female soul is calm.
+    `
   }
 
 ];
