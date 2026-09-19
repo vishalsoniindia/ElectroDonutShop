@@ -102,7 +102,6 @@ window.PRODUCTS = [
     //   tindie: "$52"
     // },
     description: `
-
     ## What is it?
     Pendant for Hallowee, which has moving soul.
 
